@@ -26,7 +26,6 @@ export default defineConfig({
           text: 'CS 基础',
           collapsed: false,
           items: [
-            { text: '简介', link: '/docs/01CSBase/1-Windows 命令提示符介绍.md' },
             { text: 'Windows 命令提示符介绍', link: '/docs/01CSBase/1-Windows 命令提示符介绍.md' },
             { text: 'PowerShell 和 Windows Terminal', link: '/docs/01CSBase/2-PowerShell 和 WindowsTerminal.md' },
             { text: '环境变量及其设置', link: '/docs/01CSBase/3-环境变量及其设置.md' },
@@ -42,7 +41,7 @@ export default defineConfig({
           text: 'Julia 入门',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/02JuliaIntro/0010-julia 的安装.md' },
+            { text: 'julia 的安装', link: '/docs/02JuliaIntro/0010-julia 的安装.md' },
             { text: 'julia 的 REPL', link: '/docs/02JuliaIntro/0020-julia 的 REPL.md' },
             { text: 'julia 的语法要点', link: '/docs/02JuliaIntro/0030-julia 的语法要点.md' },
             { text: 'julia 的包管理', link: '/docs/02JuliaIntro/0040-julia 的包管理.md' },
